@@ -1,4 +1,0 @@
-C:/Dev/C++/GMD-Engine/Build/CMakeFiles/ALL_BUILD.dir
-C:/Dev/C++/GMD-Engine/Build/CMakeFiles/ZERO_CHECK.dir
-C:/Dev/C++/GMD-Engine/Build/3D-Renderer/CMakeFiles/3D-Renderer.dir
-C:/Dev/C++/GMD-Engine/Build/UI/CMakeFiles/UI.dir
