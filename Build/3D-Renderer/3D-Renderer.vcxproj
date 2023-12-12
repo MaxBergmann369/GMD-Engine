@@ -269,8 +269,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source\Core.h" />
     <ClCompile Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source\Core.cpp" />
+    <ClInclude Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source\Core.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\ZERO_CHECK.vcxproj">
