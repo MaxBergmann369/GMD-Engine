@@ -1,0 +1,10 @@
+^C:\USERS\MAX B\DESKTOP\SCHULE\PROG\CPP\GMD\EDITOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD" "-BC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build" --check-stamp-file "C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/Editor/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

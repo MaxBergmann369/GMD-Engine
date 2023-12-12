@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Editor\Editor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Editor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{470D97AD-1440-330F-B4B8-FC79A1CCD9E2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,4 @@
+C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/3D-Renderer/CMakeFiles/3D-Renderer.dir
+C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/CMakeFiles/UI.dir
