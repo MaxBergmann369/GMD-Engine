@@ -13,3 +13,4 @@ target_link_libraries(UI PRIVATE 3D-Renderer)
 
 
 include_directories(${CMAKE_SOURCE_DIR}/UI/Libs/ImGui)
+include_directories(${CMAKE_SOURCE_DIR}/3D-Renderer/Source)
