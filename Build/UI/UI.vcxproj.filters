@@ -1,14 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Source\Editor.cpp">
+    <ClCompile Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Source\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Source\Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C150CF9F-9F8E-367C-830E-EE4BABA96A7D}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files">
       <UniqueIdentifier>{470D97AD-1440-330F-B4B8-FC79A1CCD9E2}</UniqueIdentifier>
     </Filter>

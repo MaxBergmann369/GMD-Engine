@@ -194,6 +194,9 @@ GMD-Engine_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 GMD-Engine_SOURCE_DIR:STATIC=C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD
 
+//The directory containing a CMake configuration file for glfw3.
+glfw3_DIR:PATH=glfw3_DIR-NOTFOUND
+
 
 ########################
 # INTERNAL cache entries
