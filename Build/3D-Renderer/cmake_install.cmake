@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/3D-Renderer
+# Install script for directory: C:/Dev/C++/GMD-Engine/3D-Renderer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

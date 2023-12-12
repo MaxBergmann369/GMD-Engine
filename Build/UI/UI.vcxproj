@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C123CF97-457F-3DD7-9C79-7ED099CDC509}</ProjectGuid>
+    <ProjectGuid>{7E81B7E7-892B-3E9C-835F-A0A196672D8F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\C++\GMD-Engine\Build\UI\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UI.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">UI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\C++\GMD-Engine\Build\UI\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UI.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">UI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\C++\GMD-Engine\Build\UI\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UI.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">UI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\C++\GMD-Engine\Build\UI\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UI.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">UI</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -115,13 +115,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>..\3D-Renderer\Debug\3D-Renderer.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\3D-Renderer\Debug\3D-Renderer.lib;C:\Dev\C++\GMD-Engine\3D-Renderer\Source\Libs\GLFW\glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/Debug/UI.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/Debug/UI.pdb</ProgramDataBaseFile>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/C++/GMD-Engine/Build/UI/Debug/UI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/C++/GMD-Engine/Build/UI/Debug/UI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -130,7 +130,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -148,10 +148,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -163,9 +163,9 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/Release/UI.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/Release/UI.pdb</ProgramDataBaseFile>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/C++/GMD-Engine/Build/UI/Release/UI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/C++/GMD-Engine/Build/UI/Release/UI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -174,7 +174,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -192,10 +192,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -207,9 +207,9 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/MinSizeRel/UI.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/MinSizeRel/UI.pdb</ProgramDataBaseFile>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/C++/GMD-Engine/Build/UI/MinSizeRel/UI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/C++/GMD-Engine/Build/UI/MinSizeRel/UI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -218,7 +218,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -235,10 +235,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Libs\ImGui;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source;C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Dev\C++\GMD-Engine\UI\Source\Libs\ImGui;C:\Dev\C++\GMD-Engine\3D-Renderer\Source;C:\Dev\C++\GMD-Engine\3D-Renderer;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,9 +250,9 @@
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/RelWithDebInfo/UI.lib</ImportLibrary>
-      <ProgramDataBaseFile>C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/RelWithDebInfo/UI.pdb</ProgramDataBaseFile>
+      <IgnoreSpecificDefaultLibraries>MSVCRT;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Dev/C++/GMD-Engine/Build/UI/RelWithDebInfo/UI.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Dev/C++/GMD-Engine/Build/UI/RelWithDebInfo/UI.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -260,11 +260,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\CMakeLists.txt">
+    <CustomBuild Include="C:\Dev\C++\GMD-Engine\UI\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/UI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Dev/C++/GMD-Engine/UI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD" "-BC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build" --check-stamp-file "C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/C++/GMD-Engine -BC:/Dev/C++/GMD-Engine/Build --check-stamp-file C:/Dev/C++/GMD-Engine/Build/UI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,11 +273,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Dev\C++\GMD-Engine\Build\UI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/UI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Dev/C++/GMD-Engine/UI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD" "-BC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build" --check-stamp-file "C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/C++/GMD-Engine -BC:/Dev/C++/GMD-Engine/Build --check-stamp-file C:/Dev/C++/GMD-Engine/Build/UI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -286,11 +286,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Dev\C++\GMD-Engine\Build\UI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/UI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Dev/C++/GMD-Engine/UI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD" "-BC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build" --check-stamp-file "C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/C++/GMD-Engine -BC:/Dev/C++/GMD-Engine/Build --check-stamp-file C:/Dev/C++/GMD-Engine/Build/UI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -299,11 +299,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Dev\C++\GMD-Engine\Build\UI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/UI/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Dev/C++/GMD-Engine/UI/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD" "-BC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build" --check-stamp-file "C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/C++/GMD-Engine -BC:/Dev/C++/GMD-Engine/Build --check-stamp-file C:/Dev/C++/GMD-Engine/Build/UI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -312,23 +312,23 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Dev\C++\GMD-Engine\Build\UI\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Source\Main.cpp" />
-    <ClInclude Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\UI\Source\Main.h" />
+    <ClCompile Include="C:\Dev\C++\GMD-Engine\UI\Source\Main.cpp" />
+    <ClInclude Include="C:\Dev\C++\GMD-Engine\UI\Source\Main.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\ZERO_CHECK.vcxproj">
-      <Project>{319F233B-8685-3C79-91C1-5FD071B61996}</Project>
+    <ProjectReference Include="C:\Dev\C++\GMD-Engine\Build\ZERO_CHECK.vcxproj">
+      <Project>{27C0BEB5-6142-329D-9F1E-5128DD032CDE}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\3D-Renderer\3D-Renderer.vcxproj">
-      <Project>{3E44E800-7024-3389-AC85-00B8C67BBA64}</Project>
+    <ProjectReference Include="C:\Dev\C++\GMD-Engine\Build\3D-Renderer\3D-Renderer.vcxproj">
+      <Project>{A12A54A5-D997-3277-9E05-ADD4D5685EBE}</Project>
       <Name>3D-Renderer</Name>
     </ProjectReference>
   </ItemGroup>

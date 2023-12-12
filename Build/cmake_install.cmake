@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD
+# Install script for directory: C:/Dev/C++/GMD-Engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/3D-Renderer/cmake_install.cmake")
-  include("C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/cmake_install.cmake")
+  include("C:/Dev/C++/GMD-Engine/Build/3D-Renderer/cmake_install.cmake")
+  include("C:/Dev/C++/GMD-Engine/Build/UI/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Dev/C++/GMD-Engine/Build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

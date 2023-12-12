@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/UI
+# Install script for directory: C:/Dev/C++/GMD-Engine/UI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

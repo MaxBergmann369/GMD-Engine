@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Dev\C++\GMD-Engine\Build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\Build\UI\Debug\UI.exe</FullPath>
+      <FullPath>C:\Dev\C++\GMD-Engine\Build\UI\Debug\UI.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

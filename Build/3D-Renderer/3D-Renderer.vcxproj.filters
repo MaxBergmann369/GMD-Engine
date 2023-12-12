@@ -1,24 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source\Core.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="C:\Dev\C++\GMD-Engine\3D-Renderer\Source\Core.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\Source\Core.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="C:\Dev\C++\GMD-Engine\3D-Renderer\Source\Core.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\C++\GMD-Engine\3D-Renderer\Source\Libs\GLFW\glfw3.h">
+      <Filter>Source\Libs\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Dev\C++\GMD-Engine\3D-Renderer\Source\Libs\GLFW\glfw3native.h">
+      <Filter>Source\Libs\GLFW</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Max B\Desktop\Schule\Prog\CPP\GMD\3D-Renderer\CMakeLists.txt" />
+    <CustomBuild Include="C:\Dev\C++\GMD-Engine\3D-Renderer\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{C150CF9F-9F8E-367C-830E-EE4BABA96A7D}</UniqueIdentifier>
+    <Filter Include="Source">
+      <UniqueIdentifier>{CE71848C-972A-3E8D-9F8B-D3A86873A0BF}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{470D97AD-1440-330F-B4B8-FC79A1CCD9E2}</UniqueIdentifier>
+    <Filter Include="Source\Libs">
+      <UniqueIdentifier>{960A327B-F767-3DE8-ABAD-B9CAFFBC7141}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Libs\GLFW">
+      <UniqueIdentifier>{019592BA-F355-3A36-9128-5E3C05DF6E9E}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

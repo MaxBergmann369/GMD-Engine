@@ -1,6 +1,6 @@
-^C:\USERS\MAX B\DESKTOP\SCHULE\PROG\CPP\GMD\UI\CMAKELISTS.TXT
+^C:\DEV\C++\GMD-ENGINE\UI\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD" "-BC:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build" --check-stamp-file "C:/Users/Max B/Desktop/Schule/Prog/CPP/GMD/Build/UI/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Dev/C++/GMD-Engine -BC:/Dev/C++/GMD-Engine/Build --check-stamp-file C:/Dev/C++/GMD-Engine/Build/UI/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
