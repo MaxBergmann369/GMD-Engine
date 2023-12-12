@@ -1,13 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="C:\Dev\C++\GMD-Engine\UI\Source\Editor\Editor.cpp">
+      <Filter>Source\Editor</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Dev\C++\GMD-Engine\UI\Source\Main.cpp">
       <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Dev\C++\GMD-Engine\UI\Source\Main.h">
-      <Filter>Source</Filter>
+    <ClInclude Include="C:\Dev\C++\GMD-Engine\UI\Source\Editor\Editor.h">
+      <Filter>Source\Editor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -16,6 +19,9 @@
   <ItemGroup>
     <Filter Include="Source">
       <UniqueIdentifier>{CE71848C-972A-3E8D-9F8B-D3A86873A0BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Editor">
+      <UniqueIdentifier>{14B42515-E0A9-35B5-9D4B-8EB375A66474}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

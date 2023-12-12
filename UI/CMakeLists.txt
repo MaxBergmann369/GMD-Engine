@@ -21,7 +21,6 @@ target_link_libraries(UI PRIVATE
 target_link_options(UI PRIVATE /NODEFAULTLIB:MSVCRT)
 
 
-
 include_directories(${CMAKE_SOURCE_DIR}/UI/Source/Libs/ImGui)
 include_directories(${CMAKE_SOURCE_DIR}/3D-Renderer/Source)
 

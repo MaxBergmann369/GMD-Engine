@@ -317,8 +317,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Dev\C++\GMD-Engine\UI\Source\Editor\Editor.cpp" />
+    <ClInclude Include="C:\Dev\C++\GMD-Engine\UI\Source\Editor\Editor.h" />
     <ClCompile Include="C:\Dev\C++\GMD-Engine\UI\Source\Main.cpp" />
-    <ClInclude Include="C:\Dev\C++\GMD-Engine\UI\Source\Main.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Dev\C++\GMD-Engine\Build\ZERO_CHECK.vcxproj">

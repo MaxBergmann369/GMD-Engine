@@ -1,10 +1,13 @@
-
-#include "Core.h"
-
+#include "Editor/Editor.h"
 
 int main() 
 {
-    Core c;
-    c.hello();
+    gmd::Editor editor;
+
+    while (editor.IsOpen())
+    {
+		editor.Update();
+	}
+
     return 0;
 }
