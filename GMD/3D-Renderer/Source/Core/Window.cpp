@@ -11,6 +11,7 @@ gmd::Window::Window(const Vector2& size)
 void gmd::Window::Init()
 {
     if (!glfwInit()) {
+        gmd::Log::Error("Failed to initialize GLFW");
         return;
     }
 

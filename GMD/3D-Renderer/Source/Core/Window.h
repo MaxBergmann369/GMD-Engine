@@ -1,8 +1,10 @@
 #pragma once
 
+#include <Libs/GLEW/glew.h>
 #include <Libs/GLFW/glfw3.h>
 
 #include "Math/Vector2.h"
+#include "Core/Log.h"
 
 namespace gmd
 {

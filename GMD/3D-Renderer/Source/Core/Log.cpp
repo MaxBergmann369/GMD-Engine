@@ -1,6 +1,11 @@
 #include "Log.h"
 
-void gmd::Log::LogString(const std::string& name)
+void gmd::Log::Error(const std::string& name)
 {
-	std::cout << name << std::endl;
+	std::cout << "Error: " << name << std::endl;
+}
+
+void gmd::Log::Warning(const std::string& name)
+{
+	std::cout << "Warning: " << name << std::endl;
 }

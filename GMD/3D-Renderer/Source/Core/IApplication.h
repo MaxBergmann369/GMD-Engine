@@ -9,7 +9,7 @@ namespace gmd
 	protected:
 		virtual void Init() = 0;	
 	public:
-		IApplication() { };
+		IApplication() = default;
 
 		virtual void Update() = 0;	
 	};
