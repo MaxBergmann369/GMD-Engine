@@ -9,7 +9,8 @@ namespace gmd
 	public:
 		Log() = delete;
 
-		static void LogString(const std::string& name);
+		static void Error(const std::string& name);
+		static void Warning(const std::string& name);
 	};
 }
 
