@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-namespace spe
+namespace gmd
 {
 	class Log
 	{

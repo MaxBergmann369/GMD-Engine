@@ -15,6 +15,7 @@ target_link_libraries(UI PRIVATE 3D-Renderer)
 
 target_link_libraries(UI PRIVATE
     $<$<CONFIG:Debug>:${PATH_LIBRARIES}/GLFW/glfw3.lib>
+    opengl32.lib
 )
 
 
