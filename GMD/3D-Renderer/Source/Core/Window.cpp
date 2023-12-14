@@ -15,6 +15,12 @@ void gmd::Window::Init()
         return;
     }
 
+    if (glewInit() != GLEW_OK)
+    {
+        gmd::Log::Error("Failed to initialize GLEW");
+        return;
+    }
+
     this->m_Window = glfwCreateWindow((int)this->m_Size.X, (int)this->m_Size.Y, "GLFW Window", NULL, NULL);
 
     if (!this->m_Window) {
