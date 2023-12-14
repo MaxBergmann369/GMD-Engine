@@ -3,6 +3,10 @@
 #include <Libs/GLEW/glew.h>
 #include <Libs/GLFW/glfw3.h>
 
+#include <Libs/IMGUI/imgui.h>
+#include <Libs/IMGUI/imgui_impl_glfw.h>
+#include <Libs/IMGUI/imgui_impl_opengl3.h>
+
 #include "Math/Vector2.h"
 #include "Core/Log.h"
 
