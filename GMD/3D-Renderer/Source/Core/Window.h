@@ -26,7 +26,8 @@ namespace gmd
 		Window(const Vector2& size);
 		~Window();
 
-		void Update();
+		void EndFrame();
+		void NewFrame();
 
 		inline bool IsOpen() const { return !glfwWindowShouldClose(this->m_Window); }
 	};

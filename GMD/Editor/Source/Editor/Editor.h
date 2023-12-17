@@ -12,6 +12,8 @@ namespace gmd
 		Window m_Window;
 
 		void Init() override;
+		void RenderGUI();
+		void Render();
 	public:
 		Editor();
 
