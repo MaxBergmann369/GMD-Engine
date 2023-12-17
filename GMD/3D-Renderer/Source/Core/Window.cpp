@@ -62,4 +62,6 @@ void gmd::Window::NewFrame()
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplGlfw_NewFrame();
     ImGui::NewFrame();
+
+    glm::vec1 test = glm::vec1(1.0f);
 }

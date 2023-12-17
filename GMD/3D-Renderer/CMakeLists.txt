@@ -5,6 +5,7 @@ set(PATH_LIBRARIES ${CMAKE_SOURCE_DIR}/${CORE_NAME}/Source/Libs)
 # Globbing source files
 file(GLOB_RECURSE RENDERER_SOURCE_FILES
     "${CMAKE_CURRENT_SOURCE_DIR}/Source/*.h"
+    "${CMAKE_CURRENT_SOURCE_DIR}/Source/*.hpp"
     "${CMAKE_CURRENT_SOURCE_DIR}/Source/*.cpp"
 )
 
