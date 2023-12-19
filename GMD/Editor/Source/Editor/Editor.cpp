@@ -3,7 +3,9 @@
 // Constructor & Destructor
 
 gmd::Editor::Editor()
-	: m_Window(Vector2(1280, 720))
+	: m_Shader(PATH_TO_RESSOURCES_SHADER"/default.vert", PATH_TO_RESSOURCES_SHADER"/default.frag"),
+	m_Camera(this->WIDTH, this->HEIGHT, glm::vec3(0.0f, 0.0f, 2.0f)),
+	m_Window(Vector2(1280, 720))
 {
 	this->Init();
 }

@@ -1,25 +1,24 @@
 #pragma once
 
-#include <Libs/GLEW/glew.h>
-#include <Libs/GLFW/glfw3.h>
-#include <Libs/GLM/glm.hpp>
-#include "Camera/Camera.h"
+#include "Headers/GDM.h"
 #include "Core/Window.h"
+#include "Utility/Utility.h"
+#include "Camera/Camera.h"
 #include "Core/IApplication.h"
 #include "Core/shaderClass.h"
+#include "Utility/Macros.h"
 
 namespace gmd
 {
 	class Editor : public IApplication
 	{
-
-	unsigned int width = 1280;
-	unsigned int height = 720;
-
 	private:
+		constexpr static float WIDTH = 1280;
+		constexpr static float HEIGHT = 720;
+
 		// Generates Shader object using shaders default.vert and default.frag
-		Shader m_Shader = Shader("default.vert", "default.frag");
-		Camera m_Camera = Camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
+		Shader m_Shader;
+		Camera m_Camera;
 		Window m_Window;
 
 		void Init() override;
