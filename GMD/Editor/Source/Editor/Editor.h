@@ -10,11 +10,12 @@
 
 namespace gmd
 {
+	class Editor : public IApplication
+	{
+
 	unsigned int width = 1280;
 	unsigned int height = 720;
 
-	class Editor : public IApplication
-	{
 	private:
 		// Generates Shader object using shaders default.vert and default.frag
 		Shader m_Shader = Shader("default.vert", "default.frag");
