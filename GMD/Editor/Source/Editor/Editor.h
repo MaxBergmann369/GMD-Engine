@@ -1,14 +1,24 @@
 #pragma once
 
+#include <Libs/GLEW/glew.h>
+#include <Libs/GLFW/glfw3.h>
+#include <Libs/GLM/glm.hpp>
+#include "Camera/Camera.h"
 #include "Core/Window.h"
-#include "Core/Log.h"
 #include "Core/IApplication.h"
+#include "Core/shaderClass.h"
 
 namespace gmd
 {
+	unsigned int width = 1280;
+	unsigned int height = 720;
+
 	class Editor : public IApplication
 	{
 	private:
+		// Generates Shader object using shaders default.vert and default.frag
+		Shader m_Shader = Shader("default.vert", "default.frag");
+		Camera m_Camera = Camera(width, height, glm::vec3(0.0f, 0.0f, 2.0f));
 		Window m_Window;
 
 		void Init() override;
