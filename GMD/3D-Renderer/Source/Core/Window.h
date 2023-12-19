@@ -1,12 +1,6 @@
 #pragma once
 
-#include <Libs/GLEW/glew.h>
-#include <Libs/GLFW/glfw3.h>
-#include <Libs/GLM/glm.hpp>
-
-#include <Libs/IMGUI/imgui.h>
-#include <Libs/IMGUI/imgui_impl_glfw.h>
-#include <Libs/IMGUI/imgui_impl_opengl3.h>
+#include "Headers/GDM.h"
 
 #include "Math/Vector2.h"
 #include "Core/Log.h"
